@@ -11,7 +11,7 @@ The workflow is as follows.
 
 ## Example run
 
-```bash ~/identifyEnrichedTFsWithscRNAdata/scripts/Pipeline.sh -o=./testNOX4 -e=NOX4_REMs.csv -mcr=/home/skarunanithi/identifyEnrichedTFsWithscRNAdata/MetaCellaR -scf=./droplet_Liver_seurat_tiss.Robj -r='data' -c='meta.data$cell_ontology_class' -u=T -g=NOX4 -cell='hepatocyte'```
+```bash ~/identifyEnrichedTFsWithscRNAdata/scripts/Pipeline.sh -o=./testNOX4 -e=NOX4_REMs.csv -mcr=~/identifyEnrichedTFsWithscRNAdata/MetaCellaR -scf=./droplet_Liver_seurat_tiss.Robj -r='data' -c='meta.data$cell_ontology_class' -u=T -g=NOX4 -cell='hepatocyte'```
 
 ## Description of commands
 
@@ -21,10 +21,10 @@ The workflow is as follows.
 | -h | --help | Display Help commands |
 | -o | --outloc |Path to the output directory (will be created if not available|
 |-e|--epiregio | Epiregio ouptut for the gene of your interest downloaded as a CSV file |
-|-gseq | --genome_file | genome sequence file in FASTA format (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts/hg38.fa) |
-|-tfw | --tfbinding_workflow_loc | Path to the TRAP/FIMO workflow created by Nina (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts)|
-|-tfw_scr | --tfbinding_scRNA_workflow_loc | Path to scRNA integration pipeline created by Siva, which has additional processing scripts (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts)|
-|-mcr | --metacellar_loc | Path to MetaCellaR created by Fatemeh (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/MetaCellaR)|
+|-gseq | --genome_file | genome sequence file in FASTA format (Default: ~/identifyEnrichedTFsWithscRNAdata/scripts/hg38.fa) |
+|-tfw | --tfbinding_workflow_loc | Path to the TRAP/FIMO workflow created by Nina (Default: ~/identifyEnrichedTFsWithscRNAdata/scripts)|
+|-tfw_scr | --tfbinding_scRNA_workflow_loc | Path to scRNA integration pipeline created by Siva, which has additional processing scripts (Default: ~/identifyEnrichedTFsWithscRNAdata/scripts)|
+|-mcr | --metacellar_loc | Path to MetaCellaR created by Fatemeh (Default: ~/identifyEnrichedTFsWithscRNAdata/MetaCellaR)|
 |-scf | --scRNA_file | Name of the scRNA file containing a Seurat object|
 |-r | --scRNA_slot | Name of the RNA expression data slot in the Seurat object|
 |-c | --scRNA_cell_annot_slot | Name of the cell type annotation data slot in the Seurat object|
