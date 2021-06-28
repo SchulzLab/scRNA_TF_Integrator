@@ -17,15 +17,7 @@ The workflow is as follows.
 
 - PASTAA (available in scripts folder)
 - FIMO (available in scripts folder)
-- R packages (for MetaCellaR and post-processing)
-metaseqR
-Seurat
-cluster
-knn.covertree
-irlba
-ggplot2
-Rtsne
-umap
+- R packages (for MetaCellaR and post-processing): metaseqR, Seurat, cluster, knn.covertree, irlba, ggplot2, Rtsne, umap
 
 ## Description of commands
 
