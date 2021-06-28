@@ -13,6 +13,20 @@ The workflow is as follows.
 
 ```bash ~/identifyEnrichedTFsWithscRNAdata/scripts/Pipeline.sh -o=./testNOX4 -e=NOX4_REMs.csv -mcr=~/identifyEnrichedTFsWithscRNAdata/MetaCellaR -scf=./droplet_Liver_seurat_tiss.Robj -r='data' -c='meta.data$cell_ontology_class' -u=T -g=NOX4 -cell='hepatocyte'```
 
+## Dependencies
+
+- PASTAA (available in scripts folder)
+- FIMO (available in scripts folder)
+- R packages (for MetaCellaR and post-processing)
+metaseqR
+Seurat
+cluster
+knn.covertree
+irlba
+ggplot2
+Rtsne
+umap
+
 ## Description of commands
 
 
