@@ -20,3 +20,14 @@ The workflow is as follows.
 |:-------------:|:-------------:| -----:|
 | -h | --help | Display Help commands |
 | -o | --outloc |Path to the output directory (will be created if not available|
+|-e|--epiregio | Epiregio ouptut for the gene of your interest downloaded as a CSV file |
+|-gseq | --genome_file | genome sequence file in FASTA format (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts/hg38.fa) |
+|-tfw | --tfbinding_workflow_loc | Path to the TRAP/FIMO workflow created by Nina (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts)|
+|-tfw_scr | --tfbinding_scRNA_workflow_loc | Path to scRNA integration pipeline created by Siva, which has additional processing scripts (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/scripts)|
+|-mcr | --metacellar_loc | Path to MetaCellaR created by Fatemeh (Default: /home/skarunanithi/identifyEnrichedTFsWithscRNAdata/MetaCellaR)|
+|-scf | --scRNA_file | Name of the scRNA file containing a Seurat object|
+|-r | --scRNA_slot | Name of the RNA expression data slot in the Seurat object|
+|-c | --scRNA_cell_annot_slot | Name of the cell type annotation data slot in the Seurat object|
+|-u | --run_umap | Boolean T or F, whether to run UMAP as part of MetaCellaR (Default: T)|
+|-g | --gene_name | Name of the gene of interest (Eg. NOX4)|
+|-cell | --cell_name | Name of the interested cell type (if any; Default: None)|
