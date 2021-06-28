@@ -21,7 +21,6 @@ The workflow is as follows.
 
 ## Description of commands
 
-
 | Short        | Long           | Description  |
 |:-------------|:-------------|:-----|
 | -h | --help | Display Help commands |
