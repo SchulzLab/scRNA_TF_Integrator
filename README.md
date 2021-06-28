@@ -9,7 +9,7 @@ The workflow is as follows.
  - Step-4: Using the Metacells identified in Step-3, we calculate the RNA expression correlation of your gene of interest against all genes, and their p-values. You can subset this step to include only a particular cell type of your interest. If the interested cell type is unavailable, all available cell types will be used.
  - Step-5: We calculate a meta p-value by integrating the p-values from Step-2 and Step-4. Please note that this step will report the meta p-values for only the enriched TFs identified in Step-2.
 
-Example run: ::
+Example run:
 
-bash ~/identifyEnrichedTFsWithscRNAdata/scripts/Pipeline.sh -o=./testNOX4 -e=NOX4_REMs.csv -mcr=/home/skarunanithi/identifyEnrichedTFsWithscRNAdata/MetaCellaR -scf=./droplet_Liver_seurat_tiss.Robj -r='data' -c='meta.data$cell_ontology_class' -u=T -g=NOX4 -cell='hepatocyte
+`bash ~/identifyEnrichedTFsWithscRNAdata/scripts/Pipeline.sh -o=./testNOX4 -e=NOX4_REMs.csv -mcr=/home/skarunanithi/identifyEnrichedTFsWithscRNAdata/MetaCellaR -scf=./droplet_Liver_seurat_tiss.Robj -r='data' -c='meta.data$cell_ontology_class' -u=T -g=NOX4 -cell='hepatocyte`
 
