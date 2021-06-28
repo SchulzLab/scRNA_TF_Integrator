@@ -1,5 +1,5 @@
 # scRNA_TF_Integrator
-Integrate scRNA data with TF binding site prediction analysis. These scripts are still under development and are currently being used only internally by the [SchulzLab](https://schulzlab.github.io/) group members. 
+Integrate scRNA data with TF binding site prediction analysis. These scripts are still under development and are currently being used only internally by the [SchulzLab](https://schulzlab.github.io/) group members. A copy of all these files can be found at ```/home/skarunanithi/identifyEnrichedTFsWithscRNAdata/``` in our servers.
 
 The workflow is as follows.
 
