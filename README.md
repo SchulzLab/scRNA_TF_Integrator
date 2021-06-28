@@ -17,7 +17,7 @@ The workflow is as follows.
 
 
 | Short        | Long           | Description  |
-|:-------------:|:-------------:| -----:|
+|:-------------|:-------------|:-----|
 | -h | --help | Display Help commands |
 | -o | --outloc |Path to the output directory (will be created if not available|
 |-e|--epiregio | Epiregio ouptut for the gene of your interest downloaded as a CSV file |
